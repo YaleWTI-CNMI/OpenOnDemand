@@ -1,0 +1,8 @@
+which: no module in (/gpfs/radev/home/pl543/ondemand/dev/update_conda_env/vendor/bundle/ruby/3.1.0/bin:/opt/ood/ondemand/root/usr/bin:/opt/ood/ondemand/root/usr/sbin:/sbin:/bin:/usr/sbin:/usr/bin)
+/home/pl543/ondemand/dev/update_conda_env/update_conda_env.sh: line 4: module: command not found
+/home/pl543/ondemand/dev/update_conda_env/update_conda_env.sh: line 5: module: command not found
+Listing all conda environments ...
+Done
+Listing conda environments for specific OOD Apps ...
+Done
+conda env updated

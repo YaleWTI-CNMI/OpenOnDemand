@@ -1,0 +1,20 @@
+<h2>
+Your Conda environments have been updated in OOD.
+</h2>
+
+<% 
+   lines = @conda_env_table.strip.split("\n") 
+   lines.map do |line|
+%>
+<%= line %>
+<br>
+<% end %>
+
+<p>
+<b>Note:</b><br>
+The Conda environments with Jupyter installed will appear in the pull-down menu of the Jupyter App. If a Conda environment is missing from the menu, but you believe it should be listed, please check if Jupyter is installed in the Conda environment.
+<br>
+Similarly, only the Conda environments with R installed will be listed in the pull-down menu of the RStudio Server App. If a Conda environment is missing from the menu, but you think it should be listed, please verify if R is installed in the Conda environment.
+</p>
+
+<br>
